@@ -1,0 +1,41 @@
+1 容器
+    STL 中的容器可以分为三类：
+    1、序列容器：存储元素的序列，允许双向遍历。
+        std::vector
+        动态数组 支持随机访问
+        std::deque
+        双端队列
+        std::list
+        链表 支持快速插入和删除
+    2、关联容器：存储键值对，
+        std::set
+        std::multiset
+        std::map
+        std::mulitmap
+    3、无序容器（C++11 引入）：哈希表，支持快速的查找、插入和删除。
+        std::unordered_set
+        std::unordered_multiset
+        std::unordered_map
+        std::unordered_mulitmap
+        push_back()
+        成员函数在向量的末尾插入值 如果有必要会拓展向量的大小
+        size()
+        函数显示向量的大小
+        begin()
+        函数返回一个指向向量开头的迭代器
+        end()
+        函数返回一个指向向量末尾的迭代器
+       
+    向量（vector）、
+    链表（list）、
+    队列（queue）、
+    栈（stack）、
+    集合（set）、
+    映射（map）
+2 算法
+    算法通常不知道数据放在 vector、list 还是普通数组中，
+    它只通过迭代器访问数据。
+    因此，同一个 std::sort 风格接口能够服务多种容器
+3 迭代器
+4 函数对象
+5 适配器
